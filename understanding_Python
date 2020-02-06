@@ -1,0 +1,25 @@
+### Basic to know about python ####
+(In order to work with python and if you are beginner then anacoda navigator is the best option use jupyter notebook)
+Python is a open source language and Interpreter based language.
+Python is easy to write and need to bother about memory allocation as compared to other language.
+Python provide cross OS support which means code can be used in other operating systems.
+It is a interpreter based langauge means that the code is excuted line by line hence make it easy to debug also python is much slower then C++ and Java.
+
+In python comments are preceded by # or block of comments by """ write here """.
+
+1)Program Hello World 
+
+In python there is nothing much more then one print statement to print Hello World.
+
+Here it is how print statement works.
+
+print('Hello World') 
+
+Just write the above command and this is all it need to take to print hello world in python.
+
+Things to know in Python as basic part
+
+1) how to know the present working directory (all commands will run in jupyter notebook in our case)
+pwd 
+
+########################################################################################################################
