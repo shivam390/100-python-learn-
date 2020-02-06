@@ -23,3 +23,26 @@ Things to know in Python as basic part
 pwd 
 
 ########################################################################################################################
+TOPICS
+1) DATA TYPES
+i) Integer ii) Float iii) String iv) Array v) Complex vi) Boolean vii) List viii) Tuple ix) Dictionary x) sets
+
+Numbers
+a=5 
+b=10.3
+c=5+3j
+g="I'm a bad guy"
+h=True
+i=False
+to know the data type of these variable above use command type(variable_name)
+type(a) ---> int
+type(b)---> float
+type(c)---> complex
+type(g)----> Str
+type(h)----> bool
+type(i)----> bool
+
+LISTS
+there is no limitation on data type a list can hold or store int,str or boolean and sets.
+no forced type casting that happens.
+Lists are mutable
