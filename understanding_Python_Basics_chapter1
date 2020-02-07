@@ -143,6 +143,17 @@ print(myset)
 o/p
 {10,2,4,12}
 contains only unique values as above.
+Q if you want to find the unique values between two lists.
+A set(mylist).intersection(set(mylist1))
+used to find out subset,union two sets are disjoints.
+
+####
+Slicing 
+mylist[2:6]
+starts from index 2 and goes till index 5
+mylist[2:] from index 2 till end 
+mylist[:6] from starting to fifth index.
+mylist[1:6:2] starting from 1st position till 5th position with step size of 2.
 
 
 
