@@ -43,6 +43,108 @@ type(h)----> bool
 type(i)----> bool
 
 LISTS
+Use these brackets[] for list
 there is no limitation on data type a list can hold or store int,str or boolean and sets.
 no forced type casting that happens.
 Lists are mutable
+example--> mylist=[10,10.3,'shivam',True]
+multiple data of different data type
+
+You can access the list or element of list using INDEXING
+example---> 
+mylist=[10,10.3,'shivam',True]
+
+print(mylist[2])
+o/p 'shivam'
+
+How? here it is
+mylist=[10,10.3,'shivam',True]
+       [ 0,  1 ,   2     , 3 ]  # these are index values for mylist here at 0 we have 10 at index 1 we have 10.3 and so on.
+
+Q=How to assign the value inside a list?
+A=mylist[2]=9999
+when you will print mylist you will see output as below
+[10, 10.3, 9999, True]
+
+Q how can we append the list?
+A use mylist.append(1000) it will append the your list here i'm appending mylist
+o/p  [10, 10.3, 9999, True, 1000]
+
+Q So when do we use lists?
+A i) multiple data type need to be stored.
+ii) when the values can be changed. (by indexing you can change values shown above)
+iii) when there is a pre-known order among the values.
+
+Q how iteration works using lists?
+A Iteration happens using the index of the lists.
+
+there are many methods you can use you can try yourself rest use mylist.(press tab) to check the options available.
+
+Q how can i add multiple elements in a list?
+A mylist.extend([22,22,23,45]) #use extend method here.
+o/p [10, 10.3, 9999, True, 1000, 22, 22, 23, 45]
+
+Q how can i insert element in specific position?
+A mylist.insert(0,'shivam') 
+o/p ['shivam', 10, 10.3, 9999, True, 1000, 22, 22, 23, 45]
+
+Q how many elements are there in alist or what is the length of the list?
+A print(len(mylist))
+
+Q how can i remove element?
+A to remove last element use POP.
+mylist.pop()
+when you will print mylist again then o/p will be below
+['shivam', 10, 10.3, 9999, True, 1000, 22, 22, 23] # 45 is removed now
+
+You can remove the element like below
+1) mylist.remove('shivam')
+o/p
+[10, 10.3, 9999, True, 1000, 22, 22, 23] # shivam is removed.
+
+Q how can i remove specific index element from list?
+A mylist.remove(mylist[3]) #can be used 
+
+Q how can i clear the list?
+A mylist.clear()
+
+you can use delete also. 
+del(mylist[3])
+
+DICTIONARY 
+
+use these brackets for Dictionary{}
+Dictionary is key value pair.
+mostly used for look up.
+mydict={'Rahul':98,'Rajeev':55,'Shivam':30} #these can be score of the student in a particular subject.
+       {key:value , key:value, key: value}
+Q what is the marks scored by shivam?
+A mydict['Shivam']
+o/p 30
+You can try different methods for dictionary self.
+
+TUPLE
+Most used when you don't want your values to be changed.
+Immutable data type
+values cannot change
+mytuple=(0.06,0.08,0.03) #these values cannot be changed.
+you can access the element same as in case of list
+no-reassigning can be done.
+no append and no delete option.
+You can convert list to tuple and vise-versa.
+
+SETS
+identified by {} # there is no key-value pair here.
+
+Used to store unique value.
+mylist=[10,10,2,4,12,4,2]
+myset=set(mylist)
+print(myset)
+o/p
+{10,2,4,12}
+contains only unique values as above.
+
+
+
+
+
