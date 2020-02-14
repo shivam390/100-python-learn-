@@ -1,6 +1,11 @@
 #taking filename as a variable to store the string data.
+
 filename = str(input('Enter the desired Filename: ')) #enter the filename you want to create
+
 file_to_write = open(filename, 'w') #create the file if not created with the name you have entered in filename variable and w here is to write to the file you can use r as well to read.
+
 # or writing = str(input('enter your text: ')) and then file_to_write.write(writing) 
+
 file_to_write.write(str(input('enter your text: '))) #writing the text in the file that you have created (.write function)
+
 file_to_write.close() #closing the file
