@@ -8,4 +8,17 @@ file_to_write = open(filename, 'w') #create the file if not created with the nam
 
 file_to_write.write(str(input('enter your text: '))) #writing the text in the file that you have created (.write function)
 
-file_to_write.close() #closing the file
+file_to_write.close() #closing the file'
+
+#Use with open command if you forget to close the file like i always do ;)
+
+with open('name_of_the_file.txt','w+') as writer:
+    writer.write('enter the text here')
+
+# if you want user to enter the text then
+
+with open('name_of_the_file.txt','w+') as writer:
+    writing=str(input('enter the text: '))
+    writer.write(writing)
+
+#here you don't need to close the file.
