@@ -1,1 +1,15 @@
+# functions are defined by the name 'def' below is the example of a function 
 
+def hello(x):   #here after hello  is a self defined name after that an argument is passed within brackets which is x. (definition of a function)
+    print('Hello' + " " + x) #this will print hello and whatever the argument is passed while calling the function.
+
+hello('shivam') #this is a function call, here we are calling our function by name which is hello and passing an argument shivam.(i.e x=shivam)
+
+output:-
+Hello shivam
+    
+
+
+def sayhello(*name): #here after sayhello which is a self defined name an argument is passed within brackets *name is a 
+    for i in name:
+        print(i)
