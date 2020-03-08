@@ -1,6 +1,6 @@
 # Python examples for beginners.
 ### Easy example to understand the basics of Python with descriptions.
-### Adding Jupyter notebooks for same codes to have a look and understand
+### Adding Jupyter notebooks for codes with description to have a look and understand the output.
 
 
 ##### Learn python by doing, all basic and advance topics will be covered with atleast one code on each topic and clear understanding of programming and coding and theory and algorithms.
